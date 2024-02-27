@@ -1,107 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-   
 
 @font-face {
-    font-family: "Uniform";
-    src: url(./fonts/Uniform.ttf);
+  font-family: "Uniform";
+  src: url(./fonts/Uniform.ttf);
 }
 
-body{
-    font-family: "Uniform";
+body {
+  font-family: "Uniform";
 }
 
-
-
-h1{
-    font-size: 10px;
-    font-weight: normal; 
+h1 {
+  font-size: 10px;
+  font-weight: normal;
 }
-
-
 
 header {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
-/* header div {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin: 5px; 
-} */
-
 .mon_compte .material-symbols-outlined {
-    margin-bottom: 4px; 
-    font-size: 13px;
-    text-align: center;
-    
+  margin-bottom: 4px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .mon_compte p {
-    font-size: 8px;
-    text-transform: uppercase;
+  font-size: 8px;
+  text-transform: uppercase;
 }
 
-.titre_site{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 40px;
-
+.titre_site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .mon_compte {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.connexion{
-    width: 10%;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 40px;
-
+.connexion {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
 }
 
 header h3 {
-    margin-right: auto;
+  margin-right: auto;
 }
-header{
-    background-color: #1e66a5;
-    color: white;
-    height: 40px;
-    width: 100%;
+header {
+  background-color: #1e66a5;
+  color: white;
+  height: 40px;
+  width: 100%;
 }
 
-nav{
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos_container {
+  display: flex;
+  justify-content: center;
 }
 
 .infos_ne {
-    background-color: #1e66a5;
-    color: #fff;
-    width: 50%;
-    text-align: center;
-}
-
-
-footer{
-    background-color: #1e66a5;
-    color: white;
+  background-color: #1e66a5;
+  color: #fff;
+  width: 46%;
+  text-align: center;
+  height: 20px;
+  margin: 5px 5px;
 }
 
 footer {
-    text-align: center;
-    padding: 3px;
-    width: 100%;
+  background-color: #1e66a5;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  width: 100%;
 }
