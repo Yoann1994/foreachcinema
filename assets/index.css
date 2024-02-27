@@ -24,6 +24,16 @@ header{
 }
 
 
+
+
+.infos_ne {
+    background-color: #1e66a5;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+
+
 footer{
     background-color: #1e66a5;
     color: white;
