@@ -22,6 +22,16 @@ header {
   justify-content: space-between;
 }
 
+header h3 {
+  margin-right: auto;
+}
+header {
+  background-color: #1e66a5;
+  color: white;
+  height: 40px;
+  width: 100%;
+}
+
 .mon_compte .material-symbols-outlined {
   margin-bottom: 4px;
   font-size: 13px;
@@ -46,21 +56,17 @@ header {
   justify-content: center;
 }
 
+.mon_comptes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .connexion {
   width: 10%;
   display: flex;
   justify-content: space-around;
   margin-right: 40px;
-}
-
-header h3 {
-  margin-right: auto;
-}
-header {
-  background-color: #1e66a5;
-  color: white;
-  height: 40px;
-  width: 100%;
 }
 
 .call_to_action {
@@ -105,6 +111,15 @@ nav img {
   width: 97%;
 }
 
+@media screen and (max-width: 680px) {
+  nav {
+    display: none;
+  }
+  .mon_comptes {
+    display: none;
+  }
+}
+
 .infos_container {
   display: flex;
   justify-content: center;
@@ -137,7 +152,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   background-color: #f4f3f3;
-  
 }
 
 .formules_b {
@@ -277,4 +291,145 @@ footer {
   text-align: center;
   padding: 3px;
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  header {
+    padding: 5px;
+  }
+
+  .connexion {
+    flex-direction: column;
+  }
+
+ 
+  .call_to_action {
+    width: 80%;
+    display: none;
+  }
+
+ 
+  .infos_container {
+    padding: 20px;
+  }
+
+
+  .section_tarifs {
+    flex-direction: column;
+  }
+
+  .formules,
+  .formules_b {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .contaire_infos_film {
+    padding: 20px;
+  }
+
+
+  .album_film {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .connexion {
+    flex-direction: column;
+  }
+
+  .mon_compte,
+  .mon_comptes {
+    margin-bottom: 10px; 
+  }
+
+  
+  .call_to_action {
+    width: 90%;
+  }
+
+
+  .infos_container {
+    padding: 10px;
+  }
+
+  .formules, .formules_b {
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+
+  .contaire_infos_film {
+    padding: 10px;
+   
+  }
+  .album_film {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 14px; 
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .titre_site {
+    margin-bottom: 10px;
+  }
+
+  .connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mon_compte,
+  .mon_comptes {
+    margin-bottom: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .call_to_action {
+    text-align: center;
+  }
+
+  .infos_container,
+  .section_tarifs,
+  .formules,
+  .formules_b,
+  .solo,
+  .illimtly,
+  .contaire_infos_film,
+  .leformateur,
+  .les_salles {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .salle,
+  .album_film,
+  .resume_film {
+    margin-bottom: 15px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
 }
