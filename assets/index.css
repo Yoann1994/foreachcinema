@@ -63,10 +63,46 @@ header {
   width: 100%;
 }
 
+.call_to_action {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* opacity: 0.3; */
+  color: #fff;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.call_to_action p {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.call_to_action button {
+  width: 92%;
+  height: 35px;
+  background-color: #c44949;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+}
 nav {
+  /* background-image: url(./images/ad.png); */
+  /* height: 200px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+nav img {
+  width: 97%;
 }
 
 .infos_container {
@@ -77,10 +113,159 @@ nav {
 .infos_ne {
   background-color: #1e66a5;
   color: #fff;
-  width: 46%;
+  width: 48%;
   text-align: center;
   height: 20px;
-  margin: 5px 5px;
+  margin: 10px 5px;
+}
+
+.section_tarifs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  /* background-color: #5d9754; */
+  color: #4187c4;
+}
+
+.formules {
+  width: 95%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f3f3;
+  
+}
+
+.formules_b {
+  width: 95%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f3f3;
+}
+.illimtly {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.solo {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9px;
+  margin-top: 20px;
+  background-color: #f4f3f3;
+}
+
+.contaire_infos_film {
+  background-color: #f4f3f3;
+}
+
+.leformateur {
+  /* background-color: bisque; */
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.album_film {
+  /* background-color: #472a2a; */
+  display: flex;
+  /* width: 25%; */
+}
+
+.affiche_film img {
+  width: 120px;
+  height: 200px;
+}
+
+.resume_film p {
+  width: 500px;
+  /* background-color: #165835; */
+  font-size: 1rem;
+  text-align: right;
+  /* width: 75%; */
+}
+
+.description_film {
+  margin-left: 5px;
+  background-color: #f3f4f4;
+}
+
+.description_film h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.description_film button {
+  font-size: 1.1rem;
+  background-color: #399e39;
+  padding: 2.5px;
+  border: none;
+  border-radius: 3%;
+  color: #fff;
+}
+
+.les_salles {
+  /* background-color: #914c4c; */
+  /* width: 92%; */
+  /* height: 150px; */
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.salle {
+  background-color: #b5b9bd;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.detail_salle {
+  background-color: #3d71ea;
+  width: 220px;
+  height: 80px;
+  border-radius: 5px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.lieu {
+  text-align: center;
+}
+
+.lieu p {
+  color: #fff;
+}
+
+.lieu button {
+  font-size: 1.2rem;
+  background-color: #bcbc31;
+  padding: 2.5px;
+  border: none;
+  color: #000000;
+}
+
+.horraire {
+  text-align: center;
+  color: #fff;
+  margin-top: -10px;
 }
 
 footer {
