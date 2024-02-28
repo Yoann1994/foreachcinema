@@ -299,6 +299,10 @@ footer {
     padding: 5px;
   }
 
+  .moncompte {
+    display: none;
+  } 
+
   .connexion {
     flex-direction: column;
   }
@@ -336,100 +340,41 @@ footer {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  
-  .connexion {
-    flex-direction: column;
+@media screen and (max-width: 680px) {
+  nav {
+    display: none;
   }
 
-  .mon_compte,
   .mon_comptes {
-    margin-bottom: 10px; 
-  }
-
-  
-  .call_to_action {
-    width: 90%;
-  }
-
-
-  .infos_container {
-    padding: 10px;
-  }
-
-  .formules, .formules_b {
-    width: 100%;
-    margin-bottom: 20px; 
-  }
-
-  .contaire_infos_film {
-    padding: 10px;
-   
-  }
-  .album_film {
-    flex-direction: column;
+    display: none;
   }
 }
-
-@media only screen and (max-width: 300px) {
-  body {
-    font-size: 14px; 
-  }
-
-  header {
-    text-align: center;
-  }
-
-  .titre_site {
-    margin-bottom: 10px;
-  }
-
-  .connexion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .mon_compte,
-  .mon_comptes {
-    margin-bottom: 10px;
-  }
-
-  main {
-    padding: 10px;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .call_to_action {
-    text-align: center;
-  }
-
-  .infos_container,
-  .section_tarifs,
-  .formules,
-  .formules_b,
-  .solo,
-  .illimtly,
-  .contaire_infos_film,
-  .leformateur,
-  .les_salles {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .salle,
-  .album_film,
-  .resume_film {
-    margin-bottom: 15px;
-  }
-
-  footer {
-    text-align: center;
-    padding: 10px;
-  }
+.infos_container,
+.infos_ne,
+.section_tarifs,
+h2,
+.formules,
+.formules_b,
+.illimtly,
+.solo,
+.contaire_infos_film,
+.leformateur,
+.album_film,
+.affiche_film img,
+.resume_film p,
+.description_film,
+.description_film h4,
+.description_film button,
+.les_salles,
+.salle,
+.detail_salle,
+.lieu,
+.lieu p,
+.lieu button,
+.horraire,
+footer {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px; 
+  box-sizing: border-box; /
 }
