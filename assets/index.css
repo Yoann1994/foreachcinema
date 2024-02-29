@@ -42,12 +42,10 @@ header {
   }
 
   .call_to_action {
-    width: 100%; /* Modification de la largeur à 100% pour occuper toute la largeur */
-    display: block; /* Affichage de l'élément */
+    width: 100%;
+    display: block;
   }
-
 }
-
 
 .mon_compte .material-symbols-outlined {
   margin-bottom: 4px;
@@ -59,8 +57,6 @@ header {
   font-size: 13px;
   text-align: center;
 }
-
-
 
 .mon_compte p {
   font-size: 8px;
@@ -97,7 +93,7 @@ header {
   margin-right: 40px;
 }
 
-.comptes{
+.comptes {
   width: 10%;
   display: flex;
   justify-content: space-around;
@@ -106,7 +102,7 @@ header {
 
 .call_to_action {
   background-color: rgba(0, 0, 0, 0.5);
-  
+
   color: #fff;
   position: absolute;
   bottom: 50px;
@@ -134,7 +130,6 @@ header {
   font-size: 1.5rem;
 }
 nav {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,8 +139,6 @@ nav {
 nav img {
   width: 97%;
 }
-
-
 
 .infos_container {
   display: flex;
@@ -157,7 +150,7 @@ nav img {
   color: #fff;
   width: 48%;
   text-align: center;
-  height: 30px;
+  height: 22px;
   margin: 10px 5px;
 }
 
@@ -168,7 +161,6 @@ nav img {
 }
 
 h2 {
-
   color: #4187c4;
 }
 
@@ -212,7 +204,6 @@ h2 {
 }
 
 .leformateur {
- 
   width: 92%;
   display: flex;
   justify-content: space-between;
@@ -221,9 +212,7 @@ h2 {
 }
 
 .album_film {
-
   display: flex;
- 
 }
 
 .affiche_film img {
@@ -233,10 +222,9 @@ h2 {
 
 .resume_film p {
   width: 500px;
- 
+
   font-size: 1rem;
   text-align: right;
-  
 }
 
 .description_film {
@@ -318,28 +306,22 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
   header {
     padding: 5px;
   }
 
-  
-  .mon_comptes{
+  .mon_comptes {
     display: none;
-   
   }
 
- 
   .call_to_action {
     width: 80%;
     display: none;
   }
 
- 
   .infos_container {
     padding: 20px;
   }
-
 
   .section_tarifs {
     flex-direction: column;
@@ -351,11 +333,9 @@ footer {
     margin: 0 auto;
   }
 
-
   .contaire_infos_film {
     padding: 20px;
   }
-
 
   .album_film {
     flex-direction: column;
